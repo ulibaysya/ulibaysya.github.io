@@ -11,14 +11,12 @@
     
     
     
-    
-    
     <item>
       <title>POST /users</title>
-      <link>http://localhost:1313/posts/caseit/post-users/</link>
+      <link>http://localhost:1313/posts/post-users/</link>
       <pubDate>Mon, 20 Jul 2026 15:26:57 +0300</pubDate>
       
-      <guid>http://localhost:1313/posts/caseit/post-users/</guid>
+      <guid>http://localhost:1313/posts/post-users/</guid>
       <description>&lt;p&gt;Внёс изменения в репозиторий, добавляющие handler запроса POST /users. Как несложно догадаться, он используется для добавления нового пользователя.&lt;/p&gt;
 &lt;p&gt;Доступ к этому запросу должен быть авторизован и доступен только администраторам с соответствующими правами. Обычные пользователи регистрируют аккаунт в основном с помощью входа через внешние сервисы (GET /auth/external/{external}/login/callback), об этом в другом сообщении.&lt;/p&gt;
 &lt;p&gt;Этот метод создания пользователя не будет использоваться так часто. Он скорее предназначен для особых случаев: выдача каких-то особенных аккаунтов, например для розыгрыша, для ютубера, стримера, контент креатора, influencer&amp;rsquo;а, для админа.&lt;/p&gt;

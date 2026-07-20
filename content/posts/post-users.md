@@ -1,6 +1,6 @@
 +++
 date = '2026-07-20T15:26:57+03:00'
-draft = true
+draft = false
 title = 'POST /users'
 +++
 
